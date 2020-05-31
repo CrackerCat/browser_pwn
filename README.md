@@ -126,3 +126,100 @@ browser pwn, main work now.
     official link: [commit](https://chromium.googlesource.com/v8/v8/+/fb0a60e15695466621cf65932f9152935d859447)
 
     finished date: 2020
+
+* Issue 762874
+
+    description: The Typer put the wrong type on String.indexOf and String.lastIndexOf builtins, with an off by one on the upper bound. exploit it on version 6.3 and 7.4
+
+    writeup: None
+
+    official link: [commit-762874](https://chromium.googlesource.com/v8/v8.git/+/b8f144ec4fd1cd808f0d883668f355498b56d7fa)
+    
+    [commit-7bb6dc0e06fa158df508bc8997f0fce4e33512a5](https://chromium.googlesource.com/v8/v8.git/+/7bb6dc0e06fa158df508bc8997f0fce4e33512a5)
+
+
+    finished date: 2020
+
+* Issue 913296
+
+    description: wrong typing of SpeculativeSafeIntegerSubtract, just a poc, failed to build exploit.
+
+    writeup: None
+
+    official link: [commit-913296](https://chromium.googlesource.com/v8/v8/+/413c2e787197063abd8435d9692355eb8693ad39)
+
+    finished date: 2020
+
+* cve-2019-5782
+
+    description: wrong typing of ArgumentsLength, easy to exploit.
+
+    writeup: None
+
+    official link: [commit-8e4588915ba7a9d9d744075781cea114d49f0c7b](https://chromium.googlesource.com/v8/v8/+/8e4588915ba7a9d9d744075781cea114d49f0c7b)
+
+    finished date: 2020
+
+* issue-944062
+
+    description: missing map checks in the reducer of `array.indexOf` and `array.includes`.
+
+    writeup: None
+
+    official link: [commit-e80082bf549aa26d6e30f114a23a05df9c510849](https://chromium.googlesource.com/v8/v8.git/+/e80082bf549aa26d6e30f114a23a05df9c510849)
+
+    finished date: 2020
+
+
+* issue-746946
+
+    description: error generate elements kind transitions from stable maps..
+
+    writeup: None
+
+    official link: [commit-ea55b873f2ed8336604540a532cbd460eeb66430](https://chromium.googlesource.com/v8/v8/+/ea55b873f2ed8336604540a532cbd460eeb66430)
+
+    finished date: 2020
+
+* rwctf2019-Accessible
+
+    description: deleting the FieldTypeDependency of property access cuases the vuln
+
+    writeup: None
+
+    official link: None
+
+    finished date: 2020
+
+* wctf2019-Independence_Day
+
+    description: patch compilation dependancy and no expose wasm problem
+
+    writeup: None
+
+    official link: [Independence Day (win)](https://drive.google.com/drive/folders/1IxYMgG6WWiwJoh8ARtq8Ary9CKrXHQhx)
+
+    finished date: 2020
+
+* issue-941743
+
+    description: Array.prototype.map wrong ElementsKind for output array.
+
+    writeup: None
+
+    official link: [commit](https://chromium.googlesource.com/v8/v8/+/96de5eeba9b461a2d405dcfa448901c9582f3f07)
+
+    finished date: 2020
+
+* issue-799263
+
+    description: missing Kill transition-kind source map in load elimination.
+
+    writeup: None
+
+    official link: [commit](https://chromium.googlesource.com/v8/v8/+/6b30393536c44943076739e2eaf00f0a34c2d2c9)
+
+    finished date: 2020
+
+
+
